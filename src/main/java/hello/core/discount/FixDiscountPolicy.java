@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
  *  고정 금액 할인 정책
  *
  */
+@Component
 public class FixDiscountPolicy implements DiscountPolicy {
     private final int discountFixAmount = 1000;   // 1000원 개발
 
